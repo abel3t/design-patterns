@@ -14,6 +14,8 @@ description: 'Còn gọi là: Virtual Constructor'
 
 Tưởng tượng bạn đang tạo một ứng dụng quản lý logistics. Phiên bản đầu tiên trong ứng dụng của bạn chỉ có thể xử lý việc vận chuyển bằng xe tải, vì vậy phần lớn code của bạn nằm trong lớp `Truck` (Xe tải).
 
+Vào một ngày đẹp trời, bạn nhận được hàng chục yêu cầu từ các công ty vận tải đường biển kết hợp logistics vào ứng dụng của bạn
+
 ![Việc thêm một lớp mới vào program không hề đơn giản nếu phần còn lại của code đã được kết nối với các lớp hiện có.](../.gitbook/assets/problem1-en-2x.png)
 
 Đây là một tin tốt, nhưng còn code thì sao? Hiện tại, phần lớn code của bạn đã kết nối với lớp `Truck`. Việc thêm lớp `Ship` (Tàu) vào thì sẽ phải thay đổi toàn bộ codebase. Hơn nữa, nếu sau này bạn muốn thêm một loại phương tiện mới vào ứng dụng, bạn phải thực hiện lại tất cả những thay đổi này.
