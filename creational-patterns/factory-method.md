@@ -48,3 +48,12 @@ Ví dụ, cả hai lớp `Truck` và `Ship` đều implement (bổ sung) từ in
 
     Lưu ý, việc tạo ra sản phẩm không phải là trách nhiệm chính của _Creator_. Thông thường lớp _Creator_ đã có sẵn những logic cốt lõi liên quan đến sản phẩm. Factory giúp tách logic này khỏi lớp _Concrete Products. _Đây là một ví dụ: một công ty phát triển phần mềm lớn có thể có một bộ phận đào tạo cho các lập trình viên. Tuy nhiên, chức năng chính của công ty nói chung vẫn là viết code, không đào tạo lập trình viên.
 4. **Concrete Creators** ghi đè phương thức gốc của nhà máy để nó trả về một loại sản phẩm khác.
+
+### Pseudocode <a href="pseudocode" id="pseudocode"></a>
+
+This example illustrates how the **Factory Method** can be used for creating cross-platform UI elements without coupling the client code to concrete UI classes.
+
+\
+
+
+![The cross-platform dialog example.](<../.gitbook/assets/example-2x (1).png>)
