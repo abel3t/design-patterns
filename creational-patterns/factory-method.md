@@ -66,7 +66,7 @@ For this pattern to work, the base dialog class must work with abstract buttons:
 
 Of course, you can apply this approach to other UI elements as well. However, with each new factory method you add to the dialog, you get closer to the [Abstract Factory](https://refactoring.guru/design-patterns/abstract-factory) pattern. Fear not, we’ll talk about this pattern later.
 
-```
+```java
 // The creator class declares the factory method that must
 // return an object of a product class. The creator's subclasses
 // usually provide the implementation of this method.
