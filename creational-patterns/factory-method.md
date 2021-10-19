@@ -145,3 +145,5 @@ class Application is
         this.initialize()
         dialog.render()
 ```
+
+### Applicability <a href="applicability" id="applicability"></a>
