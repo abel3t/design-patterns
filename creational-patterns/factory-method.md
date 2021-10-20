@@ -146,4 +146,4 @@ class Application is
         dialog.render()
 ```
 
-### Applicability <a href="applicability" id="applicability"></a>
+### Áp du <a href="applicability" id="applicability"></a>
